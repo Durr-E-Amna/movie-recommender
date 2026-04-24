@@ -3,7 +3,9 @@
 A production-ready, full-stack movie recommendation platform built with a **Hybrid ML Engine** (TF-IDF Content Filtering + KNN Collaborative Filtering), FastAPI backend, React frontend, and MongoDB.
 
 ---
-
+## Dataset
+Download `ratings.csv` from [MovieLens](https://grouplens.org/datasets/movielens/)
+and place it in the `data/` folder before running the app.
 ## Architecture Overview
 
 ```
