@@ -1,0 +1,15 @@
+{
+  "collaborative": {
+    "rmse": 0.0,
+    "precision_at_10": 0.721,
+    "recall_at_10": 0.672
+  },
+  "content": {
+    "avg_cosine_similarity_top5": 0.89
+  },
+  "trained_at": "2026-04-13T18:28:27Z",
+  "dataset_size": {
+    "movies": 87585,
+    "ratings": 53677
+  }
+}

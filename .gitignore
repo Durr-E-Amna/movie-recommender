@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Large model files
+models/content_model.pkl
+models/collaborative_model.pkl
+
+# Large data files
+data/tags.csv
+
+# Node modules
+frontend/node_modules/
+
+# Secrets
+.env
+frontend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
