@@ -39,7 +39,10 @@ app = FastAPI(
 )
 
 # ─── CORS ─────────────────────────────────────────────────────────────────────
-origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:5173").split(",")
+origins = os.getenv(
+    "ALLOWED_ORIGINS",
+    "http://localhost:3000,http://localhost:5173,https://movie-recommender-kno7.vercel.app",
+).split(",")
 
 app.add_middleware(
     CORSMiddleware,
