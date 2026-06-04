@@ -6,9 +6,9 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Large model files
-models/content_model.pkl
-models/collaborative_model.pkl
+# Large model files – tracked in git for deployment
+# models/content_model.pkl
+# models/collaborative_model.pkl
 
 # Large data files
 data/ratings.csv
